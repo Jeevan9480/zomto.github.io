@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Zomato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        fieldset {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            width: 300px;
+        }
+
+        legend {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input {
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>
+           
+        </legend>
+        <form action="index01.html">
+            <label for="name">NAME</label>
+            <input type="text" id="username" required placeholder="example" pattern="[a-zA-z]{3,10}"><br><br>
+
+            <label for="password">P_WORD</label>
+            <input type="password" id="password" required placeholder="example@123"><br><br>
+            <input type="submit">
+        </form>
+    </fieldset>
+</body>
+
+</html>

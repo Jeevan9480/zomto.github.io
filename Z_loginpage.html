@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Zomato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        fieldset {
+            width: 50%;
+            margin: 50px auto;
+            padding: 20px;
+            border: 2px solid #e44d26; /* Zomato's brand color, you can change it to your preference */
+            border-radius: 10px;
+            background-color: #fff;
+        }
+
+        legend {
+            font-size: 24px;
+            color: #e44d26;
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #e44d26;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <fieldset>
+            <legend><h4>Registration</h4></legend>
+            <form action="ZZ_logsuccfull.html">
+                <label for="name">NAME</label>
+                <input type="text" id="username" required placeholder="example" pattern="[a-zA-z]{3,10}"><br><br>
+
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" required placeholder="example@gmail.com"><br><br>
+
+                <label for="P_NUM">P_NUM</label>
+                <input type="number" id="number" required placeholder="9874563216" pattern="[6-9]{1}[0-9]{9}"><br><br>
+
+                <label for="password">P_WORD</label>
+                <input type="password" id="password" required placeholder="example@123"><br><br>
+
+                <input type="submit">
+            </form>
+        </fieldset>
+    </center>
+</body>
+</html>
